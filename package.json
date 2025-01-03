@@ -1,0 +1,14 @@
+{
+  "name": "vue3-components",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm run build && pnpm -F @hh/play dev",
+    "build": "pnpm -F @hh/components build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vue": "^3.4.0",
+    "@types/node": "^20.10.0"
+  }
+}
